@@ -1,0 +1,45 @@
+@import url("theme.css") screen;
+
+/*
+ * TAB PANEL COMMON STYLES
+ */
+div.Tabpanel {
+    display: block !important;
+    position: relative !important;
+    padding: 0 !important;
+}
+
+div.Tabpanel>dl {
+    display: inline !important;
+    height: 0 !important;
+}
+
+div.Tabpanel>dl>dd {
+    display: none !important;
+}
+
+div.Tabpanel>dl>dt {
+    cursor: pointer !important;
+    float: left !important;
+    display: block !important;
+    z-index: 1 !important;
+    position: relative !important;
+    text-decoration: underline;
+}
+
+div.Tabpanel>dl.selected>dt {
+    cursor: default !important;
+    text-decoration: none;
+}
+
+div.Tabpanel>dl.selected>dd {
+    display: block !important;
+    position: absolute !important;
+    z-index: 0 !important;
+    overflow: auto !important;
+    margin-left: 0;
+    top: 4ex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

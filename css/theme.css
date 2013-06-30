@@ -1,0 +1,58 @@
+/*
+ * COLORS SETTINGS
+ */
+
+/* Default colors of tabs titles */
+div.Tabpanel>dl>dt {
+    background-color: #bbbbbb;
+    color: #000000;
+}
+
+/* Colors of selected tab and his content block*/
+div.Tabpanel>dl.selected>dt,
+div.Tabpanel>dl.selected>dd,
+div.Tabpanel>dl.selected>dt:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Colors of hovered tab */
+div.Tabpanel>dl>dt:hover {
+    background-color: #ff0000;
+    color: #ffffff;
+}
+
+/* Hide bottom border of selected title */
+div.Tabpanel>dl.selected dt {
+    border-bottom-color: #ffffff;
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
+}
+
+/*
+ * BORDERS SETTINGS
+ */
+
+/* Rounding borders of tab titles */
+div.Tabpanel>dl>dt {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/* Borders style */
+div.Tabpanel>dl>dt, div.tabpanel>dl>dd {
+    border-width: 1px;
+    border-color: gray;
+    border-style: dotted;
+}
+
+
+/* Tabs titles margins */
+div.Tabpanel>dl>dt {
+    margin: 0px;
+    padding: 5px;
+}
